@@ -1,0 +1,90 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #7db4ff, #c383ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilo da caixa de conteúdo (formulário ou resposta) */
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Estilo para o título */
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 0;
+}
+
+/* Estilo para os textos de resposta */
+p {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+/* Estilo para os links */
+a {
+    color: #8e44ad;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 10px;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #732d91;
+}
+
+/* Estilo para os campos de entrada */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Estilo para o botão */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #8e44ad;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #732d91;
+}
+
+/* Estilo para exibição das mensagens de sucesso ou erro */
+.message {
+    margin-top: 15px;
+    font-size: 18px;
+    color: green;
+}
+
+/* Estilo para erros */
+.error {
+    color: red;
+}
